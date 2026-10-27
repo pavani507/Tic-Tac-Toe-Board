@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-scope="dialog"] {
+  background: #ffff !important;
+  --bg-currentcolor: #ffff !important;
+}
+
+.reset-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: '600';
+  color: '#fff';
+  background: '#1976d2';
+  border: 'none';
+  border-radius: '6px';
+  cursor: 'pointer';
+  transition: 'background 0.2s'
+}
